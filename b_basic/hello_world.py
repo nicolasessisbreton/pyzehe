@@ -1,7 +1,8 @@
 """
-type ctrl+space #@ see execution result, in pane, in ~/zout
+type ctrl+space 
 	this executes this file
 
+type ctrl+.
 	you see the result in a pane
 
 	to see the result in a file
