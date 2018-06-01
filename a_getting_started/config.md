@@ -41,7 +41,7 @@ type vintageous
 press Enter
 
 ## sublime: configure
-#@ need to make this config folder
+#@ need to make this config folder, need final version of make_plugin.py
 
 we need to copy config files from this tutorial to sublime folder
 
@@ -50,7 +50,7 @@ go to
 copy all the files in the folder
 
 go to
-	Desktop\sublime\DataPackages\User
+	Desktop\sublime\Data\Packages\User
 paste all the files
 overwrite any existing file if necessary
 

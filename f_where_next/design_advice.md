@@ -1,7 +1,6 @@
 # mantra
-
+base code on test
 code until it breaks
-
 when it breaks, refactor
 
 # sign that you need refactoring

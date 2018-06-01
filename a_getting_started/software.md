@@ -16,7 +16,7 @@ Python 3.6.5
 scroll down till the 'Files' table
 download Windows x86-64 executable installer
 execute the installer
-#@ write installer step: need to rerun the installer
+	when prompt on what to install: install everything
 
 # sublime
 
