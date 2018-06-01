@@ -41,8 +41,6 @@ type vintageous
 press Enter
 
 ## sublime: configure
-#@ need to make this config folder, need final version of make_plugin.py
-
 we need to copy config files from this tutorial to sublime folder
 
 go to 
@@ -54,6 +52,12 @@ go to
 paste all the files
 overwrite any existing file if necessary
 
+in
+	Desktop\sublime\Data\Packages\User
+open 
+	make_plugin.py
+change the path of cmder at line 9
+	cmder_path = r'C:\Users\nessisbr\Desktop\cmder\vendor\conemu-maximus5\ConEmu\ConEmuC64.exe'
 
 # what's next
 

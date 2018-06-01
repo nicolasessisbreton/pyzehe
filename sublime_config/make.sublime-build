@@ -1,0 +1,7 @@
+{
+	"shell_cmd": "python -u \"$file\" > C:\\temp\\zout 2>&1",
+	"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+	"selector": "source.python",
+
+	"env": {"PYTHONIOENCODING": "utf-8"},
+}

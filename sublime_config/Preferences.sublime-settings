@@ -1,0 +1,16 @@
+{
+	"auto_match_enabled": false,
+	"caret_style": "solid",
+	"color_scheme": "Packages/Color Scheme - Default/Blackboard.tmTheme",
+	"font_size": 20,
+	"ignored_packages":
+	[
+		"vintage"
+	],
+	"show_errors_inline": false,
+	"tab_size": 2,
+	"translate_tabs_to_spaces": false,
+	"update_check": false,
+	"word_wrap": "false",
+	"wrap_width": 999999999999
+}

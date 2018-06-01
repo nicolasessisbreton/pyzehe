@@ -1,0 +1,96 @@
+[
+	{ "keys": ["ctrl+d"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
+	{ "keys": ["alt+up"], "command": "swap_line_up" },
+	{ "keys": ["alt+down"], "command": "swap_line_down" },
+
+	{ "keys": ["ctrl+space"], "command": "build" },
+	{ "keys": ["shift+space"], "command": "exec", "args": {"kill": true} },
+	{ "keys": ["ctrl+enter"], "command": "make" },
+
+	{ "keys": ["f2"], "command": "toggle_side_bar" },
+
+	{
+		"keys": ["alt+q"],
+		"command": "set_layout",
+		"args":
+		{
+			"cols": [0.0, 1.0],
+			"rows": [0.0, 1.0],
+			"cells": [[0, 0, 1, 1]]
+		}
+	},
+	{
+		"keys": ["alt+a"],
+		"command": "set_layout",
+		"args":
+		{
+			"cols": [0.0, 0.5, 1.0],
+			"rows": [0.0, 1.0],
+			"cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
+		}
+	},
+
+	{
+		"keys": ["alt+z"],
+		"command": "set_layout",
+		"args":
+		{
+			"cols": [0.0, 1.0],
+			"rows": [0.0, 0.5, 1.0],
+			"cells": [[0, 0, 1, 1], [0, 1, 1, 2]]
+		}
+	},
+
+
+	{ 
+	  "keys": ["f1"],
+	  "command": "show_panel", 
+	  "args": {
+	    "panel": "output.exec"
+	  }
+	},
+
+	{ "keys": ["f5"], "command": "revert" },
+
+	{ "keys": ["f4"], "command": "refresh_folder_list" },
+
+	// line wrap
+
+	{ "keys": ["alt+r"], "command": "wrap_lines", "args": {"width": 100} },
+
+	// zout
+	{ "keys": ["ctrl+."], "command": "open_file", "args": {"file": "C:\\temp\\zout"} },
+
+	// missing accented character
+	{ "keys": ["~","a"], "command": "insert", "args": {"characters": "à"}},
+	{ "keys": ["~","A"], "command": "insert", "args": {"characters": "À"}},
+	{ "keys": ["~","E"], "command": "insert", "args": {"characters": "É"}},
+	{ "keys": ["~","e"], "command": "insert", "args": {"characters": "é"}},
+	{ "keys": ["^","e"], "command": "insert", "args": {"characters": "ê"}},
+	{ "keys": ["`","e"], "command": "insert", "args": {"characters": "è"}},
+	{ "keys": ["`","u"], "command": "insert", "args": {"characters": "ù"}},
+	{ "keys": ["^","u"], "command": "insert", "args": {"characters": "û"}},
+	{ "keys": ["~","c"], "command": "insert", "args": {"characters": "ç"}},
+	{ "keys": ["^","a"], "command": "insert", "args": {"characters": "â"}},
+	{ "keys": ["^","o"], "command": "insert", "args": {"characters": "ô"}},
+	{ "keys": ["^","i"], "command": "insert", "args": {"characters": "î"}},
+
+	// reg replace
+	//{ "keys": ["ctrl+;"], "command": "reg_replace", "args": {"replacements": ["xip_on"]} },
+	//{ "keys": ["ctrl+'"], "command": "reg_replace", "args": {"replacements": ["xip_off"]} },
+
+	{ "keys": ["ctrl+;"], "command": "reg_replace", "args": {"replacements": ["print_on"]} },
+	{ "keys": ["ctrl+'"], "command": "reg_replace", "args": {"replacements": ["print_off"]} },
+	
+	{ "keys": ["alt+w"], "command": "reg_replace", "args": {"replacements": ["remove_fython_warnings", "remove_array_temporary_was_created"]} },
+
+	{ "keys": ["alt+r"], "command": "reg_replace", "args": {"replacements": ["remove_array_temporary_was_created_1", "remove_array_temporary_was_created_2", "remove_array_temporary_was_created_3"]} },
+
+	// round numbers
+	{ "keys": ["alt+d"], "command": "reg_replace", "args": {"replacements": ["truncate_to_two_decimals", "lower_case_exponent"]} },
+
+	{ "keys": ["alt+b"], "command": "reg_replace", "args": {"replacements": ["remove_blank_lines"]} },
+
+	// fmt
+	{ "keys": ["alt+."], "command": "reg_replace", "args": {"replacements": ["fmt1","fmt2","fmt3"]} },
+]
