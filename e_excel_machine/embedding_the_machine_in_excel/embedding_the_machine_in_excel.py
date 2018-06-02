@@ -25,7 +25,7 @@ def parallel_eval(x):
 """
 the code below is for debug
 
-in a terminal do
+in cmder
 	python embedding_the_machine_in_excel.py
 
 then open the associated workbook

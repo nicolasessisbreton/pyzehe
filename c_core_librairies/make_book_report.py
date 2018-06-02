@@ -2,7 +2,7 @@
 here we produce visualization with excel
 
 # one-time excel preparation
-	in a terminal
+	in cmder
 		xlwings addin install
 
 	open excel
@@ -10,7 +10,7 @@ here we produce visualization with excel
 			File > Options > Trust Center > Trust Center Settings > Macro Settings
 
 # making the visualization workbook
-	in a terminal
+	in cmder
 		chdir this_directory
 		xlwings quickstart book_report
 
@@ -18,6 +18,7 @@ here we produce visualization with excel
 		sol_book_report\*
 
 # studying the visualization
+	in cmder type excel
 	open with excel sol_book_report\book_report.xlsm
 
 	open with sublime book_report.py

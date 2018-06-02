@@ -2,8 +2,8 @@ from numpy import *
 from numpy.random import *
 from multiprocessing import Pool, cpu_count
 from itertools import starmap
-import pathlib
-from config import *
+import clr
+import Aspose.Cells as ap
 
 def get_value(interest_rates, strikes, sigmas, S_0s):
 	path = pathlib.Path(__file__).resolve().parents[0]

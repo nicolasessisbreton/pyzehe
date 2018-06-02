@@ -21,7 +21,7 @@ the directory structure must be
 		a package can be think as a top-level folder
 
 # installation
-in a terminal
+in cmder
 	chdir package_root_folder
 	python setup.py develop
 

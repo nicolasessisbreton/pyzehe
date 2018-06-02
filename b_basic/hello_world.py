@@ -20,7 +20,6 @@ select line 20 (g 20 g v $)
 """
 print('hello world!')
 
-
 """
 ctrl+space ctrl+. and ctrl+enter are your friends
 use them to execute file in test_all.py marked with

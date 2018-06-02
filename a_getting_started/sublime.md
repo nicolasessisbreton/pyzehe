@@ -9,7 +9,7 @@ To use this power, we need to learn a few commands
 type ctrl+p
 type the name of the file you want
 
-the name can
+the name can be
 	sublime.md (full name)
 	subl (partial name)
 	s u md (partial name)

@@ -1,8 +1,6 @@
-# github.md
+# quick_step_up.md
 
-# software.md
-
-# config.md
+# long_step_up.md
 
 # sublime.md
 
@@ -12,5 +10,4 @@
 what's next
 open
 	b_basic\test_all.py
-
 """

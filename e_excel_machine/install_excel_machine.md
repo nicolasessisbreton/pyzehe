@@ -1,7 +1,8 @@
+look at this file only if you used long_setup.md
+
 # excel machine
 
-the excel machine is the software provided by aspose cells
-
+the excel machine is a software provided by aspose cells
 
 # installation
 google aspose cells 
@@ -15,4 +16,7 @@ unzip on your desktop: 'select extract to aspose.cells/'
 
 go to Desktop\aspose.cells\lib\net40
 	take note of this path
-	this the path to use in python
+
+#@ not robust, check if better way
+in cmder
+	setx PYTHONPATH path_that_you_noted_above;%PYTHONPATH%

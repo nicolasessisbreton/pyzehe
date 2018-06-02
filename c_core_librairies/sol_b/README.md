@@ -3,7 +3,7 @@
 packages exercise_a into a package
 
 # installation
-in a terminal
+in cmder
 	chdir package_root_folder
 	python setup.py develop
 
