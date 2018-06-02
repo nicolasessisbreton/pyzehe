@@ -41,23 +41,24 @@ type vintageous
 press Enter
 
 ## sublime: configure
-we need to copy config files from this tutorial to sublime folder
+we need to copy config files from the cmder folder to sublime folder
 
 go to 
-	Desktop\pyzehe\sublime_config
-copy all the files in the folder
+	Desktop\cmder\vendor\sublime\Data\Package
+copy all the folder User
 
 go to
 	Desktop\sublime\Data\Packages\User
-paste all the files
-overwrite any existing file if necessary
+overwrite the User folder
 
 in
 	Desktop\sublime\Data\Packages\User
 open 
 	make_plugin.py
-change the path of cmder at line 9
-	cmder_path = r'C:\Users\nessisbr\Desktop\cmder\vendor\conemu-maximus5\ConEmu\ConEmuC64.exe'
+change the path of cmder_root at line 14
+	cmder_root = dirname(dirname(sublime.executable_path()))
+to the actual path
+	cmder_root = r'C:\Users\nessisbr\Desktop\cmder'
 
 # what's next
 
